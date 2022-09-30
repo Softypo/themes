@@ -80,7 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Softypo/themes/blob/master/Demo.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,4 +221,4 @@ Project Link: [https://github.com/Softypo/themes](https://github.com/Softypo/the
 [license-url]: https://github.com/Softypo/themes/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/gabriel-garcia-rosas
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: Demo.gif
