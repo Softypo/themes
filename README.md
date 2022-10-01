@@ -109,7 +109,7 @@ For server side loading:
 
 ```python
 # To use different themes,  just change the link:
-themes = 'https://cdn.jsdelivr.net/gh/Softypo/theme/themes/_dark/bootstrap_darkly.min.css'
+themes = 'https://cdn.jsdelivr.net/gh/Softypo/themes/_dark/bootstrap_darkly.min.css'
 
 # initial config
 app = dash.Dash(__name__, external_stylesheets=[themes, title='Your Dashboard Name')
@@ -134,8 +134,8 @@ window.dash_clientside = Object.assign({}, window.dash_clientside, {
     dashboard: {
         theme_switcher: function (themeToggle, themes) {
             const stylesheet = document.querySelector('link[rel=stylesheet][href^="https://cdn.jsdelivr"]');
-            let light = 'https://cdn.jsdelivr.net/gh/Softypo/theme/themes/_light/bootstrap_united.min.css'
-            let dark = 'https://cdn.jsdelivr.net/gh/Softypo/theme/themes/_dark/bootstrap_darkly.min.css'
+            let light = 'https://cdn.jsdelivr.net/gh/Softypo/themes/_light/bootstrap_united.min.css'
+            let dark = 'https://cdn.jsdelivr.net/gh/Softypo/themes/_dark/bootstrap_darkly.min.css'
             let themeLink = themeToggle ? light : dark;
             setTimeout(function () { stylesheet.href = themeLink; }, 100);
             if (themeToggle) return { "colorScheme": "light" };
